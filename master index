@@ -3,3 +3,13 @@
 <p class="one">This is italic text.</p>
 
 <p class="two">This is oblique text.</p>
+
+
+
+<div class="module-1">
+  <p>I am sized relative to the document.</p>
+</div>
+
+<div class="module-2">
+  <p>I am sized relative to the parent element.</p?
+</div>

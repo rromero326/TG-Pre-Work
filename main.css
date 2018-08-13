@@ -6,3 +6,26 @@ p {
 
 .one { font-style: italic; }
 .two { font-style: oblique; }
+
+html {
+  background-color: #cecece;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+div {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 50px;
+  padding: 20px;
+}
+
+.module-2 {
+  font-size: 42px;
+  line-height: 36px;
+}
+
+.module-2 p {
+  font-size: 110%;
+}
