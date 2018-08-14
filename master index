@@ -16,11 +16,13 @@
 
   <div class="search">Search the table</div>
 <table>
+  <thead>
   <tr>
     <th scope="row">Company</th>
     <th scope="row">Number of Items to Ship</th>
     <th scope="row">Next Action</th>
   </tr>
+  </thead>
   <tbody>
   <tr>
     <td colspan="2">Adam's Greenworks</td>
