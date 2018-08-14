@@ -5,8 +5,9 @@ body {
   padding: 0;
 }
 
-.navigation {
+.navigation .donate {
   text-align: center;
+  visibility: hidden;
 }
 
 ul {
