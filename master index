@@ -21,6 +21,7 @@
     <th scope="row">Number of Items to Ship</th>
     <th scope="row">Next Action</th>
   </tr>
+  <tbody>
   <tr>
     <td colspan="2">Adam's Greenworks</td>
     <td>14</td>
@@ -51,6 +52,8 @@
   <td>1</td>
   <td>Enter Order</td>
 </tr>
+</tbody>
+
 
   </table>
 
