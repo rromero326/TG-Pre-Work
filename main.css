@@ -103,11 +103,11 @@ a.home {
 
 /* Font Card Sections */
 
-.font-card .garamond .sample .text {
+.font-card .space .sample .text {
   background-color: #ffffff;
   margin: 50px 0;
   padding: 20px 50px;
-  font-family: Garamond, Serif;
+  font-family: "Space Mono", monospace;
 }
 
 .font-card .creator .helvetica .sample .text {
