@@ -76,13 +76,14 @@ a.home {
   padding: 100px 0;
   margin-top: 77px;
   text-align: center;
-}
+  }
 
 .banner p {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   padding: 10px;
   color: #ffffff;
+  font-weight: bold;
 }
 
 /* Editorial Sections */
