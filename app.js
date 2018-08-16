@@ -1,8 +1,17 @@
-let isLocked = false;
-isLocked ? console.log('You will need a key to open the door.') : console.log('You will not need a key to open the door.');
+let calculatorIsOn = false;
 
-let isCorrect = true;
-isCorrect ? console.log('Correct!') : console.log('Incorrect!');
+const pressPowerButton = () => {
+  if (calculatorIsOn) {
+    console.log('Calculator turning off.');
+    calculatorIsOn = false;
+  } else {
+    console.log('Calculator turning on.');
+    calculatorIsOn = true;
+  }
+};
 
-let favoritePhrase = false;
-favoritePhrase ? console.log('I love that!') : console.log("I don't love that!");
+pressPowerButton();
+// Output: Calculator turning on.
+
+pressPowerButton();
+// Output: Calculator turning off.
