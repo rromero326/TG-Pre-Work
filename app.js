@@ -1,1 +1,2 @@
-let changeMe = false;
+let notDefined;
+let valueless;
