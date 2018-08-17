@@ -1,6 +1,6 @@
 let person = {
-  name: 'Tyron',
-  age: 40,
+  name: 'Renee',
+  age: 41,
   weekendAlarm: 'No alarms needed',
   weekAlarm: 'Alarm set to 7AM',
 
@@ -11,13 +11,19 @@ let person = {
   sayGoodbye() {
     return 'Goodbye!';
   }
-
 };
 
+let friend = {
+  name: 'Linda'
+};
+
+friend.sayHello = person.sayHello;
+
+console.log(friend.sayHello());
 console.log(person.sayHello());
 
-person.hobbies = ['Basketball', 'Coaching'];
-person.hobbies = ['Basketball'];
+person.hobbies = ['Cook', 'Bake'];
+person.hobbies = ['Cook'];
 console.log(person.hobbies);
 
 
