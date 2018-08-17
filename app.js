@@ -13,3 +13,5 @@ let person = {
   }
 
 };
+person.age = 'Thirty-nine';
+person.age = 39;
