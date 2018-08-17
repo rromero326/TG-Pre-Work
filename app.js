@@ -1,5 +1,13 @@
-let fruits = ['mango', 'papaya', 'pineapple', 'apple'];
+let animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
 
-// Iterate over fruits below
-fruits.forEach(fruitItem => console.log('I want to eat a ' + fruitItem));
-;
+// Create the secretMessage array below
+
+let secretMessage = animals.map(animal => animal.charAt(0));
+
+console.log(secretMessage.join(''));
+
+let bigNumbers = [100, 200, 300, 400, 500];
+
+// Create the smallNumbers array below
+
+let smallNumbers = bigNumbers.map(num => num/100);
