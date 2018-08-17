@@ -1,5 +1,5 @@
 let vacationSpots = ['Italy', 'Spain', 'Greece'];
 
-console.log(vacationSpots[0]);
-console.log(vacationSpots[1]);
-console.log(vacationSpots[2]);
+for (let vacationSpotIndex = 0; vacationSpotIndex < vacationSpots.length; vacationSpotIndex++) {
+  console.log('I am headed to ' + vacationSpots[vacationSpotIndex]);
+}
