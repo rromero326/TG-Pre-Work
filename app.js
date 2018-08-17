@@ -1,3 +1,3 @@
 let newYearsResolutions = ['Lose weight', 'Get sleep', 'Om'];
-
-console.log(newYearsResolutions);
+let listItem = 'Lose weight'
+console.log(newYearsResolutions[3]);
