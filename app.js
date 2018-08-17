@@ -21,3 +21,4 @@ console.log(person[alarm]);
 
 person.hobbies = ['Watch fav TV shows', 'Excercise'];
 console.log(person.hobbies);
+person['hobbies'] = ['Watch fav TV shows'];
