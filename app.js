@@ -1,14 +1,24 @@
 let person = {
-  name: 'Renee',
-  age: 41,
+  name: 'Tyron',
+  age: 40,
   weekendAlarm: 'No alarms needed',
-  weekAlarm: 'Alarm set to 7AM'
+  weekAlarm: 'Alarm set to 7AM',
+  sayHello: () => {
+    return 'Hello, there!';
+  }
 };
+
+console.log(person.sayHello());
+
+person.hobbies = ['Basketball', 'Coaching'];
+person.hobbies = ['Basketball'];
+console.log(person.hobbies);
+
 
 console.log(person['name']);
 console.log(person['age']);
 
-let day = 'Friday';
+let day = 'Tuesday';
 let alarm;
 
 if (day === 'Saturday' || day === 'Sunday' ) {
@@ -18,7 +28,3 @@ if (day === 'Saturday' || day === 'Sunday' ) {
 }
 
 console.log(person[alarm]);
-
-person.hobbies = ['Watch fav TV shows', 'Excercise'];
-console.log(person.hobbies);
-person['hobbies'] = ['Watch fav TV shows'];
