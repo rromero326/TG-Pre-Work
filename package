@@ -1,7 +1,3 @@
-const Airplane = require('./1-airplane.js');
+const Airplane = require('./2-airplane.js');
 
-function displayAirplane() {
-  console.log(Airplane.myAirplane);
-}
-
-displayAirplane();
+console.log(Airplane.displayAirplane());
